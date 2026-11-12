@@ -1,0 +1,22 @@
+Total Sales = SUM(sales_data[Sales])
+
+Total Profit = SUM(sales_data[Profit])
+
+Total Orders = DISTINCTCOUNT(sales_data[Order_ID])
+
+Total Quantity = SUM(sales_data[Quantity])
+
+Total Customers = DISTINCTCOUNT(sales_data[Customer_ID])
+
+Average Order Value = DIVIDE([Total Sales], [Total Orders], 0)
+
+Profit Margin % = DIVIDE([Total Profit], [Total Sales], 0)
+
+Average Discount % = AVERAGE(sales_data[Discount])
+
+Sales LY = CALCULATE([Total Sales], SAMEPERIODLASTYEAR('Calendar'[Date]))
+
+Sales Growth % = DIVIDE([Total Sales] - [Sales LY], [Sales LY], 0)
+
+-- Optional date table:
+Calendar = CALENDAR(MIN(sales_data[Order_Date]), MAX(sales_data[Order_Date]))

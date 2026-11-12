@@ -1,0 +1,7 @@
+Sales Performance Analysis Dashboard | Power BI, Power Query, DAX
+- Analyzed 1,200 synthetic retail order records to evaluate sales, profit, product and regional performance.
+- Built DAX measures for Total Sales, Total Profit, Orders, Average Order Value and Profit Margin.
+- Designed an interactive multi-page report with monthly trends, category mix and regional comparisons.
+- Used Power Query to validate data types and prepare the dataset for reporting.
+
+Note: Keep these bullets only after you have actually built and tested the report in Power BI.

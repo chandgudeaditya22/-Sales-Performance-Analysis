@@ -1,0 +1,25 @@
+# Dashboard Layout
+
+## Page 1: Executive Overview
+- KPI Cards: Total Sales, Total Profit, Total Orders, Average Order Value, Profit Margin %
+- Line chart: Sales by Month (use Order_Date hierarchy or Calendar table)
+- Bar chart: Sales by Region
+- Donut chart: Sales by Category
+- Slicers: Region, Category, Order_Date
+
+## Page 2: Product Performance
+- Bar chart: Sales by Product
+- Bar chart: Profit by Product
+- Matrix: Category > Product with Sales, Profit, Quantity, Profit Margin %
+- Scatter chart: Sales vs Profit by Product (optional)
+
+## Page 3: Regional Analysis
+- Bar chart: Sales by City
+- Column chart: Profit by Region
+- Matrix: Region and City with Sales, Orders, Profit
+
+## Formatting
+- Use a consistent two-colour theme, clear titles and readable labels.
+- Format Sales/Profit as currency (₹ if you choose to relabel the fictional data as INR; values are generated as generic currency).
+- Format percentage measures as Percentage with 1 decimal place.
+- Add report title: Sales Performance Analysis | 2025.
